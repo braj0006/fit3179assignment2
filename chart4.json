@@ -1,0 +1,54 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "repeat": {
+      "row": ["teaching", "international", "research","citations","income"],
+      "column": ["income", "citations", "research", "international","teaching"]
+    },
+    "title":"Scatterplot of the Categories in 2016",
+    "spec": {
+      "data": {"url": "timesData2016.csv"},
+      "mark": "point",
+      "params": [
+        {
+          "name": "brush",
+          "select": {
+            "type": "interval",
+            "resolve": "union",
+            "on": "[mousedown[event.shiftKey], window:mouseup] > window:mousemove!",
+            "translate": "[mousedown[event.shiftKey], window:mouseup] > window:mousemove!",
+            "zoom": "wheel![event.shiftKey]"
+          }
+        },
+        {
+          "name": "grid",
+          "select": {
+            "type": "interval",
+            "resolve": "global",
+            "translate": "[mousedown[!event.shiftKey], window:mouseup] > window:mousemove!",
+            "zoom": "wheel![!event.shiftKey]"
+          },
+          "bind": "scales"
+        }
+      ],
+      "encoding": {
+        "x": {"field": {"repeat": "column"}, "type": "quantitative"},
+        "y": {
+          "field": {"repeat": "row"},
+          "type": "quantitative",
+          "axis": {"minExtent": 30}
+        },
+        "tooltip":[
+            {"field":"university_name","type": "nominal","title":"University"},
+            {"field":"world_rank","type": "quantitative","title":"World Rank"},
+            {"field":"teaching","type": "quantitative"},
+            {"field":"international","type": "quantitative"},
+            {"field":"research","type": "quantitative"},
+            {"field":"citations","type": "quantitative"},
+            {"field":"income","type": "quantitative"}
+
+
+        ]
+      }
+    }
+  }
+  

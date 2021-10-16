@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Assignment 2 FIT 3179</title>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+  <!-- Import pure.css -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
+  
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+  <style>
+
+    * {
+      box-sizing: border-box;
+    }
+    /* Header/Logo Title */
+    .header {
+      padding: 60px;
+      text-align: center;
+      background: #000000;
+      color: white;
+      font-size: 30px;
+    }
+
+    .main {
+      padding: 35px;
+      color: white;
+      background:#D3D3D3 ;
+    }
+    
+    .center {
+      text-align: center;
+    }
+    
+    /* Page Content */
+    .serifcontent {
+      padding:20px;
+      text-align: center;
+      color: black;
+      font-family: "Times New Roman",serif;}
+
+    .serifstyle {
+      padding: 10px;
+      color: black;
+      font-family: "Times New Roman",serif;
+    }
+
+    .sansserifstyle {
+      padding: 10px;
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .sansserifcontent {
+    padding:20px;
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;}
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      height: 300px;
+    }
+    .columnBar {
+      float: right;
+      width: 50%;
+      padding: 10px;
+      height: fit-content;
+    }
+
+    .columnRadial {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      height: 350px;
+    }
+
+    .columnScatter {
+      width: 100%;
+      padding: 10px;
+      height: fit-content;
+    }
+
+    .columnBoxplot {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      height: fit-content;
+    }
+
+    .columnConclusion {
+      width: 100%;
+      padding: 10px;
+      height: fit-content;
+    }
+    </style>
+</head>
+<body>  
+  <div class="header" style="font-family: Times New Roman,serif";>
+    <h1>Times University Ranking System 2016</h1>
+    <p>How does it work?</p>
+  </div>
+
+  <div class="main">
+    <div class="serifstyle">
+      <h1>Introduction</h1>
+      <div style="font-size: 110%;">
+        <p>The results of the ranking of universities are calculated every year by Times Higher Education Ranking. The results are a combination of few categories. 
+          The categories consist of <b>Teaching</b>, <b>International Outlook</b>, <b>Research</b>, <b>Citations</b>, and <b>Industry Income</b>. The <b>"Teaching"</b>, <b>"Research"</b>, and <b>"Citations"</b> holds 
+          30% weight each in the overall score. Then, <b>"International Outlook"</b> holds 7.5% weight in the overall score. Lastly, <b>"Industry Income"</b> holds 2.5% weight in the overall score.
+          Times Higher Education rankings is often considered one of the most widely observed university rankings.
+        </p>
+        <p>
+          The purpose behind the ranking system defined by Times Higher Education is to allow the young ones to further understand what they are getting into 
+          when they are choosing the desired university. Moreover, the ranking system gives a clear difference between different universities in the world.
+        </p>
+      </div>
+    </div>
+
+    <div class="serifcontent">
+      <div id="symbol_map"></div>
+    </div>
+
+    <div class="sansserifcontent">
+      <div style="font-size: 80%;">
+        <p>The chart above is a <b>choropleth map</b> that shows <b>the number of students in each universities</b> ranked by the Times Higher Education. It can be observed that 
+          countries such as Lithuania, Belarus, Serbia, Iceland, Slovenia and Estonia has more than 50 students per 10,000 population in the country.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="columnBar" style="background-color:#696969;">
+        <div id="barchart"></div>
+      </div>
+      <div class="sansserifstyle">
+        <div style="font-size: 100%;padding: 10px;">
+          <p>The chart on the right is a <b>bar chart</b> that shows the <b>top N universities that depends on the overall score during 2016</b>. The university on the top
+            is the <b>top 1 university which is California Institute of Technology</b> located in United States of America. The slider below the chart
+            can be used to adjust to show the universities depending on the ranking. It shows a maximum of top 100 universities.
+          </p>
+        </div>
+    </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="columnRadial" style="background-color:#696969;">
+        <div id="radialchart"></div>
+      </div>
+      <div class="columnRadial" style="background-color:#D3D3D3;">
+        <div class="sansserifstyle">
+          <div style="font-size: 100%">
+            <p>The chart on the left is a <b>radial chart</b>. It shows the <b>proportion that makes up to the overall score of the university</b>. It can be observed that the difference in which university
+              focuses on. As observed, <b>California Institute of Technology focus more on the research department</b> compared to Massachusetts Institute of Technology and 
+              University of Chicago. We can look deeper into each universities' category score by selecting the university in the drop down menu. 
+            </p>
+          </div>  
+        </div>
+      </div>
+      
+    </div>
+    <br>
+    <div class="row">
+      <div class="columnScatter" style="background-color:#696969;">
+        <div id="scatter"></div>
+      </div>
+      <div class="columnScatter" style="background-color:#D3D3D3;">
+        <div class="sansserifstyle">
+          <div style="font-size: 100%">
+            <p>The chart above is a <b>scatterplot matrix</b>. It shows the <b>correlation between all the categories where Times Higher Education uses to evaluate the overall score
+              to determine the ranking of the university</b> . It can be observed that the <b>correlation between teaching and resource is highly correlated</b>. Hence, it shows most
+              universities uses similar resources and teaching method to the students. Furthermore, it can be observed that teaching and research has relations to the 
+              citation category but it isn't as impactful as the relation of teaching and resource.  
+            </p>
+          </div>  
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+      <div class="columnBoxplot" style="background-color:#D3D3D3;">
+        <div class="sansserifstyle">
+          <div style="font-size: 100%;">
+            <p>The chart on the right is a <b>boxplot chart</b>. It shows the how the <b>median score of each category increases or decreases as the rank of the university increases</b>.
+              It can be observed that the category <b>research, teaching and citations has a great difference between top 10 universities and top 100 universities</b>. The median
+              value of the three category decreases as the rank increases. The category income and international doesn't change much due to universities not focusing on that
+              aspect of the university. Furthermore, it can be observed that the category citations has outlier which means abnormalities recorded in the data from Times
+              Higher Education.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="columnBoxplot" style="background-color:#696969;">
+        <div id="boxplot"></div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+      <div class="columnConclusion" style="background-color:#D3D3D3;">
+        <div class="serifstyle">
+          <div style="font-size: 110%;">
+            <div style="text-align: left;">
+              <h1>
+                Conclusion
+              </h1>
+            </div>
+            <p>
+              As a conclusion, it is important to understand how one of the best ranking system in world ranks the universities all around the world. This would really
+              <b>help students that are deciding to attend their university of choice</b>. By understanding all categories broken down by Times Higher Education, we are able to 
+              help the students to find their needs whether they want to focus more on the teaching materials they provide or the research made by universities which could 
+              help the students themselves. 
+            </p>
+            <p>
+              For more information of the latest rankings by Times Higher Education, please click on this <a href="https://www.timeshighereducation.com/world-university-rankings/2022/world-ranking#!/page/0/length/25/sort_by/rank/sort_order/asc/cols/stats">link</a>!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+            
+
+<script type="text/javascript">
+
+  var spec1 = "map.json";
+  var spec2 = "chart2.json";
+  var spec3 = "chart3.json";
+  var spec4 = "chart4.json";
+  var spec5 = "chart5.json";
+  vegaEmbed('#symbol_map', spec1).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  vegaEmbed('#barchart', spec2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  vegaEmbed('#radialchart', spec3).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  vegaEmbed('#scatter', spec4).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  vegaEmbed('#boxplot', spec5).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+</script>
+
+</body>
+</html>

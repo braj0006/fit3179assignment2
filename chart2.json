@@ -1,0 +1,33 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json", 
+    "title": { "text": "Top N universities in 2016" },
+    "data": {
+    "url": "timesData2016.csv"
+    },
+    "params":[
+        {
+            "name": "top_selection",
+            "value": 10,
+            "bind": {
+                "input": "range",
+                "min": 10,
+                "max": 100,
+                "step": 10,
+                "name": "Top N selection"
+            }
+        }
+    ],
+    "transform": [
+        {"filter": "datum.world_rank < top_selection"}
+    ],
+    "mark": "bar", 
+    "encoding": {
+        "x": { "field": "total_score", "type": "quantitative", "title":"Total score by Times Ranking System" },
+        "y": { "field": "university_name", "type": "nominal", "sort": "-x", "title": "University" },
+        "tooltip": [
+            {"field": "university_name", "type": "nominal", "title": "University"},
+            {"field": "total_score", "type": "quantitative", "title": "Total score"},
+            {"field": "world_rank", "type": "quantitative", "title": "World rank"}
+        ] 
+    }
+}

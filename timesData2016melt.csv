@@ -1,0 +1,486 @@
+,world_rank,university_name,country,total_score,variable,value
+0,1,California Institute of Technology,United States of America,95.2,teaching,95.6
+2884,1,California Institute of Technology,United States of America,95.2,income,97.8
+721,1,California Institute of Technology,United States of America,95.2,international,64
+1442,1,California Institute of Technology,United States of America,95.2,research,97.6
+2163,1,California Institute of Technology,United States of America,95.2,citations,99.8
+3030,2,University of Oxford,United Kingdom,94.2,income,73.1
+2309,2,University of Oxford,United Kingdom,94.2,citations,98.8
+867,2,University of Oxford,United Kingdom,94.2,international,94.4
+146,2,University of Oxford,United Kingdom,94.2,teaching,86.5
+1588,2,University of Oxford,United Kingdom,94.2,research,98.9
+1,3,Stanford University,United States of America,93.9,teaching,92.5
+2885,3,Stanford University,United States of America,93.9,income,63.3
+1443,3,Stanford University,United States of America,93.9,research,96.2
+722,3,Stanford University,United States of America,93.9,international,76.3
+2164,3,Stanford University,United States of America,93.9,citations,99.9
+2310,4,University of Cambridge,United Kingdom,92.8,citations,97
+1589,4,University of Cambridge,United Kingdom,92.8,research,96.7
+3031,4,University of Cambridge,United Kingdom,92.8,income,55
+147,4,University of Cambridge,United Kingdom,92.8,teaching,88.2
+868,4,University of Cambridge,United Kingdom,92.8,international,91.5
+1444,5,Massachusetts Institute of Technology,United States of America,92,research,88.6
+723,5,Massachusetts Institute of Technology,United States of America,92,international,84
+2,5,Massachusetts Institute of Technology,United States of America,92,teaching,89.4
+2165,5,Massachusetts Institute of Technology,United States of America,92,citations,99.7
+2886,5,Massachusetts Institute of Technology,United States of America,92,income,95.4
+2166,6,Harvard University,United States of America,91.6,citations,99.8
+1445,6,Harvard University,United States of America,91.6,research,99
+2887,6,Harvard University,United States of America,91.6,income,45.2
+724,6,Harvard University,United States of America,91.6,international,77.2
+3,6,Harvard University,United States of America,91.6,teaching,83.6
+1446,7,Princeton University,United States of America,90.1,research,91.9
+4,7,Princeton University,United States of America,90.1,teaching,85.1
+2167,7,Princeton University,United States of America,90.1,citations,99.3
+725,7,Princeton University,United States of America,90.1,international,78.5
+2888,7,Princeton University,United States of America,90.1,income,52.1
+3032,8,Imperial College London,United Kingdom,89.1,income,53.7
+148,8,Imperial College London,United Kingdom,89.1,teaching,83.3
+869,8,Imperial College London,United Kingdom,89.1,international,96
+1590,8,Imperial College London,United Kingdom,89.1,research,88.5
+2311,8,Imperial College London,United Kingdom,89.1,citations,96.7
+944,9,ETH Zurich – Swiss Federal Institute of Technology Zurich,Switzerland,88.3,international,97.9
+223,9,ETH Zurich – Swiss Federal Institute of Technology Zurich,Switzerland,88.3,teaching,77
+1665,9,ETH Zurich – Swiss Federal Institute of Technology Zurich,Switzerland,88.3,research,95
+3107,9,ETH Zurich – Swiss Federal Institute of Technology Zurich,Switzerland,88.3,income,80
+2386,9,ETH Zurich – Swiss Federal Institute of Technology Zurich,Switzerland,88.3,citations,91.1
+1447,10,University of Chicago,United States of America,87.9,research,88.9
+5,10,University of Chicago,United States of America,87.9,teaching,85.7
+2168,10,University of Chicago,United States of America,87.9,citations,99.2
+2889,10,University of Chicago,United States of America,87.9,income,36.6
+726,10,University of Chicago,United States of America,87.9,international,65
+2890,11,Johns Hopkins University,United States of America,87.6,income,100
+1448,11,Johns Hopkins University,United States of America,87.6,research,90.4
+727,11,Johns Hopkins University,United States of America,87.6,international,70
+6,11,Johns Hopkins University,United States of America,87.6,teaching,77.6
+2169,11,Johns Hopkins University,United States of America,87.6,citations,98.2
+728,12,Yale University,United States of America,87.4,international,64.3
+2170,12,Yale University,United States of America,87.4,citations,97.2
+7,12,Yale University,United States of America,87.4,teaching,86.5
+2891,12,Yale University,United States of America,87.4,income,43.3
+1449,12,Yale University,United States of America,87.4,research,87.8
+2171,13,"University of California, Berkeley",United States of America,87.2,citations,99.7
+1450,13,"University of California, Berkeley",United States of America,87.2,research,91.1
+729,13,"University of California, Berkeley",United States of America,87.2,international,61.9
+2892,13,"University of California, Berkeley",United States of America,87.2,income,47.9
+8,13,"University of California, Berkeley",United States of America,87.2,teaching,80.4
+870,14,University College London,United Kingdom,87.1,international,94.4
+149,14,University College London,United Kingdom,87.1,teaching,78.1
+1591,14,University College London,United Kingdom,87.1,research,91
+3033,14,University College London,United Kingdom,87.1,income,40.5
+2312,14,University College London,United Kingdom,87.1,citations,94.2
+2172,15,Columbia University,United States of America,86.1,citations,98.1
+730,15,Columbia University,United States of America,86.1,international,73.5
+9,15,Columbia University,United States of America,86.1,teaching,85.9
+1451,15,Columbia University,United States of America,86.1,research,82.2
+2893,15,Columbia University,United States of America,86.1,income,-
+2894,16,"University of California, Los Angeles",United States of America,85.8,income,47.9
+731,16,"University of California, Los Angeles",United States of America,85.8,international,56.4
+10,16,"University of California, Los Angeles",United States of America,85.8,teaching,80.8
+2173,16,"University of California, Los Angeles",United States of America,85.8,citations,98.5
+1452,16,"University of California, Los Angeles",United States of America,85.8,research,88.6
+2895,17,University of Pennsylvania,United States of America,85.2,income,47.9
+11,17,University of Pennsylvania,United States of America,85.2,teaching,82
+2174,17,University of Pennsylvania,United States of America,85.2,citations,98.6
+1453,17,University of Pennsylvania,United States of America,85.2,research,86.9
+732,17,University of Pennsylvania,United States of America,85.2,international,49.5
+2175,18,Cornell University,United States of America,84,citations,97.2
+1454,18,Cornell University,United States of America,84,research,86.1
+2896,18,Cornell University,United States of America,84,income,33.7
+733,18,Cornell University,United States of America,84,international,63.9
+12,18,Cornell University,United States of America,84,teaching,77.9
+2396,19,University of Toronto,Canada,83.9,citations,90.9
+1675,19,University of Toronto,Canada,83.9,research,89.3
+954,19,University of Toronto,Canada,83.9,international,77.8
+233,19,University of Toronto,Canada,83.9,teaching,75.9
+3117,19,University of Toronto,Canada,83.9,income,49.1
+2897,20,Duke University,United States of America,82.7,income,100
+2176,20,Duke University,United States of America,82.7,citations,99
+13,20,Duke University,United States of America,82.7,teaching,76
+1455,20,Duke University,United States of America,82.7,research,78
+734,20,Duke University,United States of America,82.7,international,56.5
+1456,21,University of Michigan,United States of America,82.4,research,85.2
+2898,21,University of Michigan,United States of America,82.4,income,56.3
+735,21,University of Michigan,United States of America,82.4,international,53.7
+14,21,University of Michigan,United States of America,82.4,teaching,76.8
+2177,21,University of Michigan,United States of America,82.4,citations,94.4
+2178,22,Carnegie Mellon University,United States of America,82.3,citations,99.1
+1457,22,Carnegie Mellon University,United States of America,82.3,research,88.8
+15,22,Carnegie Mellon University,United States of America,82.3,teaching,67.4
+736,22,Carnegie Mellon University,United States of America,82.3,international,57.1
+2899,22,Carnegie Mellon University,United States of America,82.3,income,57.5
+871,23,London School of Economics and Political Science,United Kingdom,81.3,international,93.6
+2313,23,London School of Economics and Political Science,United Kingdom,81.3,citations,94.3
+150,23,London School of Economics and Political Science,United Kingdom,81.3,teaching,69.8
+3034,23,London School of Economics and Political Science,United Kingdom,81.3,income,32.2
+1592,23,London School of Economics and Political Science,United Kingdom,81.3,research,80.6
+2314,24,University of Edinburgh,United Kingdom,80.3,citations,96.3
+3035,24,University of Edinburgh,United Kingdom,80.3,income,36.1
+872,24,University of Edinburgh,United Kingdom,80.3,international,89.8
+151,24,University of Edinburgh,United Kingdom,80.3,teaching,68.6
+1593,24,University of Edinburgh,United Kingdom,80.3,research,77.2
+737,25,Northwestern University,United States of America,79.5,international,53.9
+16,25,Northwestern University,United States of America,79.5,teaching,69.8
+1458,25,Northwestern University,United States of America,79.5,research,78.4
+2179,25,Northwestern University,United States of America,79.5,citations,96.5
+2900,25,Northwestern University,United States of America,79.5,income,81.2
+3142,26,National University of Singapore,Singapore,79.2,income,49.8
+1700,26,National University of Singapore,Singapore,79.2,research,84.5
+258,26,National University of Singapore,Singapore,79.2,teaching,71.7
+2421,26,National University of Singapore,Singapore,79.2,citations,79.4
+979,26,National University of Singapore,Singapore,79.2,international,96.2
+3036,27,King’s College London,United Kingdom,78.2,income,40.1
+873,27,King’s College London,United Kingdom,78.2,international,93.8
+2315,27,King’s College London,United Kingdom,78.2,citations,93.8
+152,27,King’s College London,United Kingdom,78.2,teaching,64.5
+1594,27,King’s College London,United Kingdom,78.2,research,75.8
+260,28,Karolinska Institute,Sweden,77.5,teaching,60.6
+3144,28,Karolinska Institute,Sweden,77.5,income,75.8
+1702,28,Karolinska Institute,Sweden,77.5,research,81.1
+2423,28,Karolinska Institute,Sweden,77.5,citations,92.2
+981,28,Karolinska Institute,Sweden,77.5,international,73.1
+271,29,LMU Munich,Germany,77.3,teaching,70.5
+992,29,LMU Munich,Germany,77.3,international,62.8
+1713,29,LMU Munich,Germany,77.3,research,77.4
+3155,29,LMU Munich,Germany,77.3,income,100
+2434,29,LMU Munich,Germany,77.3,citations,85.7
+1459,30,New York University,United States of America,77.2,research,72.3
+2180,30,New York University,United States of America,77.2,citations,95.3
+17,30,New York University,United States of America,77.2,teaching,74.7
+738,30,New York University,United States of America,77.2,international,49.3
+2901,30,New York University,United States of America,77.2,income,30.4
+224,31,École Polytechnique Fédérale de Lausanne,Switzerland,76.1,teaching,61.3
+3108,31,École Polytechnique Fédérale de Lausanne,Switzerland,76.1,income,65.4
+945,31,École Polytechnique Fédérale de Lausanne,Switzerland,76.1,international,98.6
+1666,31,École Polytechnique Fédérale de Lausanne,Switzerland,76.1,research,67.5
+2387,31,École Polytechnique Fédérale de Lausanne,Switzerland,76.1,citations,94.6
+18,32,University of Washington,United States of America,75.6,teaching,67.1
+1460,32,University of Washington,United States of America,75.6,research,70
+2181,32,University of Washington,United States of America,75.6,citations,98.6
+739,32,University of Washington,United States of America,75.6,international,51.2
+2902,32,University of Washington,United States of America,75.6,income,43.1
+3192,33,University of Melbourne,Australia,75.4,income,64.6
+1750,33,University of Melbourne,Australia,75.4,research,75.5
+308,33,University of Melbourne,Australia,75.4,teaching,62
+1029,33,University of Melbourne,Australia,75.4,international,87.1
+2471,33,University of Melbourne,Australia,75.4,citations,86.6
+1676,34,University of British Columbia,Canada,75.3,research,73.2
+955,34,University of British Columbia,Canada,75.3,international,90.5
+3118,34,University of British Columbia,Canada,75.3,income,42.6
+2397,34,University of British Columbia,Canada,75.3,citations,91.5
+234,34,University of British Columbia,Canada,75.3,teaching,60.2
+2502,35,KU Leuven,Belgium,74.8,citations,87.3
+339,35,KU Leuven,Belgium,74.8,teaching,59.9
+1060,35,KU Leuven,Belgium,74.8,international,68.6
+3223,35,KU Leuven,Belgium,74.8,income,100
+1781,35,KU Leuven,Belgium,74.8,research,76.9
+2182,36,University of Illinois at Urbana-Champaign,United States of America,74.5,citations,86.8
+2903,36,University of Illinois at Urbana-Champaign,United States of America,74.5,income,52.8
+740,36,University of Illinois at Urbana-Champaign,United States of America,74.5,international,45.8
+19,36,University of Illinois at Urbana-Champaign,United States of America,74.5,teaching,64.5
+1461,36,University of Illinois at Urbana-Champaign,United States of America,74.5,research,81.2
+2435,37,Heidelberg University,Germany,74.4,citations,88.2
+272,37,Heidelberg University,Germany,74.4,teaching,68.8
+3156,37,Heidelberg University,Germany,74.4,income,68.2
+1714,37,Heidelberg University,Germany,74.4,research,69.6
+993,37,Heidelberg University,Germany,74.4,international,62.8
+3119,38,McGill University,Canada,72.6,income,40.3
+956,38,McGill University,Canada,72.6,international,85.5
+2398,38,McGill University,Canada,72.6,citations,78.9
+1677,38,McGill University,Canada,72.6,research,72.1
+235,38,McGill University,Canada,72.6,teaching,66.1
+2184,39,"University of California, Santa Barbara",United States of America,72.2,citations,99.2
+21,39,"University of California, Santa Barbara",United States of America,72.2,teaching,52.6
+20,39,"University of California, San Diego",United States of America,72.2,teaching,56.9
+2183,39,"University of California, San Diego",United States of America,72.2,citations,98.7
+2904,39,"University of California, San Diego",United States of America,72.2,income,56.7
+1463,39,"University of California, Santa Barbara",United States of America,72.2,research,66
+2905,39,"University of California, Santa Barbara",United States of America,72.2,income,90.4
+1462,39,"University of California, San Diego",United States of America,72.2,research,69.8
+741,39,"University of California, San Diego",United States of America,72.2,international,42.9
+742,39,"University of California, Santa Barbara",United States of America,72.2,international,61.5
+2906,41,Georgia Institute of Technology,United States of America,72.1,income,73.7
+22,41,Georgia Institute of Technology,United States of America,72.1,teaching,57.8
+1464,41,Georgia Institute of Technology,United States of America,72.1,research,72.7
+2185,41,Georgia Institute of Technology,United States of America,72.1,citations,86
+743,41,Georgia Institute of Technology,United States of America,72.1,international,71.5
+2509,42,Peking University,China,72,citations,69.1
+3230,42,Peking University,China,72,income,100
+1788,42,Peking University,China,72,research,72.4
+346,42,Peking University,China,72,teaching,77.8
+1067,42,Peking University,China,72,international,49.2
+1104,43,University of Tokyo,Japan,71.1,international,30.3
+1825,43,University of Tokyo,Japan,71.1,research,83
+3267,43,University of Tokyo,Japan,71.1,income,50.8
+2546,43,University of Tokyo,Japan,71.1,citations,60.9
+383,43,University of Tokyo,Japan,71.1,teaching,81.4
+23,44,"University of California, Davis",United States of America,71,teaching,60.1
+744,44,"University of California, Davis",United States of America,71,international,58.4
+1465,44,"University of California, Davis",United States of America,71,research,72.7
+2186,44,"University of California, Davis",United States of America,71,citations,84.3
+2907,44,"University of California, Davis",United States of America,71,income,57.3
+1466,46,University of Texas at Austin,United States of America,70.3,research,69.7
+24,46,University of Texas at Austin,United States of America,70.3,teaching,59.3
+745,46,University of Texas at Austin,United States of America,70.3,international,31.7
+2908,46,University of Texas at Austin,United States of America,70.3,income,63.1
+2187,46,University of Texas at Austin,United States of America,70.3,citations,92.2
+424,47,Wageningen University and Research Center,Netherlands,70,teaching,52.6
+3308,47,Wageningen University and Research Center,Netherlands,70,income,100
+2510,47,Tsinghua University,China,70,citations,58.8
+347,47,Tsinghua University,China,70,teaching,73.3
+2587,47,Wageningen University and Research Center,Netherlands,70,citations,87.8
+1866,47,Wageningen University and Research Center,Netherlands,70,research,66.9
+1789,47,Tsinghua University,China,70,research,83
+3231,47,Tsinghua University,China,70,income,100
+1068,47,Tsinghua University,China,70,international,39.5
+1145,47,Wageningen University and Research Center,Netherlands,70,international,70.3
+1715,49,Humboldt University of Berlin,Germany,69.9,research,77
+2436,49,Humboldt University of Berlin,Germany,69.9,citations,73.6
+273,49,Humboldt University of Berlin,Germany,69.9,teaching,63.7
+3157,49,Humboldt University of Berlin,Germany,69.9,income,36.1
+994,49,Humboldt University of Berlin,Germany,69.9,international,62.6
+2188,50,University of Wisconsin-Madison,United States of America,69.7,citations,86.6
+2909,50,University of Wisconsin-Madison,United States of America,69.7,income,48.5
+25,50,University of Wisconsin-Madison,United States of America,69.7,teaching,65.1
+1467,50,University of Wisconsin-Madison,United States of America,69.7,research,68.2
+746,50,University of Wisconsin-Madison,United States of America,69.7,international,33
+26,51,Brown University,United States of America,69.6,teaching,62.8
+2189,51,Brown University,United States of America,69.6,citations,96.4
+747,51,Brown University,United States of America,69.6,international,57.8
+2910,51,Brown University,United States of America,69.6,income,31.4
+1468,51,Brown University,United States of America,69.6,research,55.7
+309,52,Australian National University,Australia,69.5,teaching,54.7
+1030,52,Australian National University,Australia,69.5,international,93.3
+2472,52,Australian National University,Australia,69.5,citations,72.3
+3193,52,Australian National University,Australia,69.5,income,48
+1751,52,Australian National University,Australia,69.5,research,77.3
+3158,53,Technical University of Munich,Germany,69.4,income,99.2
+1716,53,Technical University of Munich,Germany,69.4,research,66
+2437,53,Technical University of Munich,Germany,69.4,citations,80.1
+274,53,Technical University of Munich,Germany,69.4,teaching,61
+995,53,Technical University of Munich,Germany,69.4,international,63.8
+1158,54,École Normale Supérieure,France,69,international,85.5
+2600,54,École Normale Supérieure,France,69,citations,87.1
+1879,54,École Normale Supérieure,France,69,research,47.7
+3321,54,École Normale Supérieure,France,69,income,37.1
+437,54,École Normale Supérieure,France,69,teaching,70.6
+3143,55,Nanyang Technological University,Singapore,68.2,income,99.9
+259,55,Nanyang Technological University,Singapore,68.2,teaching,48.4
+2422,55,Nanyang Technological University,Singapore,68.2,citations,85.6
+980,55,Nanyang Technological University,Singapore,68.2,international,94.6
+1701,55,Nanyang Technological University,Singapore,68.2,research,61.3
+153,56,University of Manchester,United Kingdom,68.1,teaching,58.4
+1752,56,University of Sydney,Australia,68.1,research,68.1
+3194,56,University of Sydney,Australia,68.1,income,72.4
+2473,56,University of Sydney,Australia,68.1,citations,77.5
+1595,56,University of Manchester,United Kingdom,68.1,research,66
+1031,56,University of Sydney,Australia,68.1,international,84.4
+2316,56,University of Manchester,United Kingdom,68.1,citations,77.3
+310,56,University of Sydney,Australia,68.1,teaching,54.3
+3037,56,University of Manchester,United Kingdom,68.1,income,42
+874,56,University of Manchester,United Kingdom,68.1,international,87
+1867,58,University of Amsterdam,Netherlands,67.8,research,64.7
+425,58,University of Amsterdam,Netherlands,67.8,teaching,52.2
+1146,58,University of Amsterdam,Netherlands,67.8,international,66.5
+2588,58,University of Amsterdam,Netherlands,67.8,citations,87.4
+3309,58,University of Amsterdam,Netherlands,67.8,income,62.8
+1753,60,The University of Queensland,Australia,67,research,62.8
+27,60,Washington University in St Louis,United States of America,67,teaching,54.3
+1469,60,Washington University in St Louis,United States of America,67,research,55.6
+3195,60,The University of Queensland,Australia,67,income,76.7
+1032,60,The University of Queensland,Australia,67,international,89.3
+2911,60,Washington University in St Louis,United States of America,67,income,33.5
+748,60,Washington University in St Louis,United States of America,67,international,44.9
+2190,60,Washington University in St Louis,United States of America,67,citations,99.2
+2474,60,The University of Queensland,Australia,67,citations,82.4
+311,60,The University of Queensland,Australia,67,teaching,49.2
+426,62,Utrecht University,Netherlands,66.6,teaching,48.1
+1868,62,Utrecht University,Netherlands,66.6,research,64.3
+1147,62,Utrecht University,Netherlands,66.6,international,55.8
+2589,62,Utrecht University,Netherlands,66.6,citations,88.1
+3310,62,Utrecht University,Netherlands,66.6,income,89.1
+749,63,University of North Carolina at Chapel Hill,United States of America,66.4,international,39
+28,63,University of North Carolina at Chapel Hill,United States of America,66.4,teaching,58
+2191,63,University of North Carolina at Chapel Hill,United States of America,66.4,citations,95.9
+1470,63,University of North Carolina at Chapel Hill,United States of America,66.4,research,54.5
+2912,63,University of North Carolina at Chapel Hill,United States of America,66.4,income,39.4
+750,64,Boston University,United States of America,66.1,international,51
+2192,64,Boston University,United States of America,66.1,citations,97.7
+29,64,Boston University,United States of America,66.1,teaching,57.8
+1471,64,Boston University,United States of America,66.1,research,49.5
+2913,64,Boston University,United States of America,66.1,income,30.3
+2914,65,University of Minnesota,United States of America,65.9,income,98.5
+3311,65,Delft University of Technology,Netherlands,65.9,income,100
+2590,65,Delft University of Technology,Netherlands,65.9,citations,61.5
+30,65,University of Minnesota,United States of America,65.9,teaching,53.5
+427,65,Delft University of Technology,Netherlands,65.9,teaching,55
+1148,65,Delft University of Technology,Netherlands,65.9,international,84
+2193,65,University of Minnesota,United States of America,65.9,citations,88
+751,65,University of Minnesota,United States of America,65.9,international,35.3
+1869,65,Delft University of Technology,Netherlands,65.9,research,73.8
+1472,65,University of Minnesota,United States of America,65.9,research,61
+1870,67,Leiden University,Netherlands,65.7,research,63.1
+3312,67,Leiden University,Netherlands,65.7,income,49.8
+1149,67,Leiden University,Netherlands,65.7,international,64.3
+2591,67,Leiden University,Netherlands,65.7,citations,85.2
+428,67,Leiden University,Netherlands,65.7,teaching,50.5
+752,68,University of Southern California,United States of America,65.5,international,56.3
+1473,68,University of Southern California,United States of America,65.5,research,58.9
+2194,68,University of Southern California,United States of America,65.5,citations,93
+2915,68,University of Southern California,United States of America,65.5,income,38
+31,68,University of Southern California,United States of America,65.5,teaching,49.3
+2317,69,University of Bristol,United Kingdom,64.3,citations,91.2
+3038,69,University of Bristol,United Kingdom,64.3,income,40
+875,69,University of Bristol,United Kingdom,64.3,international,82.4
+1596,69,University of Bristol,United Kingdom,64.3,research,51.6
+154,69,University of Bristol,United Kingdom,64.3,teaching,47.6
+2318,70,Durham University,United Kingdom,63.6,citations,87.7
+3039,70,Durham University,United Kingdom,63.6,income,34.4
+1597,70,Durham University,United Kingdom,63.6,research,51.9
+155,70,Durham University,United Kingdom,63.6,teaching,47.9
+876,70,Durham University,United Kingdom,63.6,international,86.4
+3313,71,Erasmus University Rotterdam,Netherlands,63.5,income,54.6
+1871,71,Erasmus University Rotterdam,Netherlands,63.5,research,55.2
+1150,71,Erasmus University Rotterdam,Netherlands,63.5,international,76.1
+2592,71,Erasmus University Rotterdam,Netherlands,63.5,citations,95.6
+429,71,Erasmus University Rotterdam,Netherlands,63.5,teaching,37.2
+2438,72,Free University of Berlin,Germany,63.2,citations,60.2
+275,72,Free University of Berlin,Germany,63.2,teaching,57.9
+996,72,Free University of Berlin,Germany,63.2,international,69.2
+1717,72,Free University of Berlin,Germany,63.2,research,72.2
+3159,72,Free University of Berlin,Germany,63.2,income,35.1
+2475,73,Monash University,Australia,62.5,citations,73.3
+3196,73,Monash University,Australia,62.5,income,79.7
+312,73,Monash University,Australia,62.5,teaching,48.1
+1754,73,Monash University,Australia,62.5,research,58.5
+1033,73,Monash University,Australia,62.5,international,87.6
+2593,74,University of Groningen,Netherlands,62.4,citations,84
+1872,74,University of Groningen,Netherlands,62.4,research,56.9
+3314,74,University of Groningen,Netherlands,62.4,income,92.4
+430,74,University of Groningen,Netherlands,62.4,teaching,43.3
+1151,74,University of Groningen,Netherlands,62.4,international,63.9
+1474,75,Pennsylvania State University,United States of America,62.3,research,61.9
+32,75,Pennsylvania State University,United States of America,62.3,teaching,50.4
+2916,75,Pennsylvania State University,United States of America,62.3,income,56.2
+753,75,Pennsylvania State University,United States of America,62.3,international,40.8
+2195,75,Pennsylvania State University,United States of America,62.3,citations,80.5
+1906,76,University of Helsinki,Finland,61.9,research,60.4
+877,76,University of Glasgow,United Kingdom,61.9,international,85.8
+3040,76,University of Glasgow,United Kingdom,61.9,income,31.6
+1598,76,University of Glasgow,United Kingdom,61.9,research,48.3
+1185,76,University of Helsinki,Finland,61.9,international,51.8
+156,76,University of Glasgow,United Kingdom,61.9,teaching,41.6
+2319,76,University of Glasgow,United Kingdom,61.9,citations,92.3
+3348,76,University of Helsinki,Finland,61.9,income,31.6
+2627,76,University of Helsinki,Finland,61.9,citations,82.1
+464,76,University of Helsinki,Finland,61.9,teaching,48.4
+3160,78,University of Tübingen,Germany,61.7,income,59.2
+997,78,University of Tübingen,Germany,61.7,international,58.2
+1718,78,University of Tübingen,Germany,61.7,research,59.8
+276,78,University of Tübingen,Germany,61.7,teaching,47
+2439,78,University of Tübingen,Germany,61.7,citations,79.3
+754,79,University of Pittsburgh,United States of America,61.5,international,33.9
+2196,79,University of Pittsburgh,United States of America,61.5,citations,92.3
+2917,79,University of Pittsburgh,United States of America,61.5,income,39.3
+33,79,University of Pittsburgh,United States of America,61.5,teaching,50.6
+1475,79,University of Pittsburgh,United States of America,61.5,research,50.3
+2320,80,University of Warwick,United Kingdom,61.3,citations,78.2
+3041,80,University of Warwick,United Kingdom,61.3,income,37.7
+1599,80,University of Warwick,United Kingdom,61.3,research,53.1
+878,80,University of Warwick,United Kingdom,61.3,international,90.3
+157,80,University of Warwick,United Kingdom,61.3,teaching,47.4
+261,81,Uppsala University,Sweden,61.2,teaching,44.1
+2424,81,Uppsala University,Sweden,61.2,citations,80.9
+982,81,Uppsala University,Sweden,61.2,international,59.6
+3145,81,Uppsala University,Sweden,61.2,income,39.5
+1703,81,Uppsala University,Sweden,61.2,research,61
+2476,82,University of New South Wales,Australia,61,citations,82.1
+3357,82,University of Copenhagen,Denmark,61,income,45
+1194,82,University of Copenhagen,Denmark,61,international,83.3
+1755,82,University of New South Wales,Australia,61,research,53.9
+1915,82,University of Copenhagen,Denmark,61,research,42.7
+473,82,University of Copenhagen,Denmark,61,teaching,49.8
+2636,82,University of Copenhagen,Denmark,61,citations,86.2
+1034,82,University of New South Wales,Australia,61,international,89.5
+313,82,University of New South Wales,Australia,61,teaching,40.7
+3197,82,University of New South Wales,Australia,61,income,50
+1719,84,University of Freiburg,Germany,60.7,research,51.1
+2440,84,University of Freiburg,Germany,60.7,citations,80.5
+277,84,University of Freiburg,Germany,60.7,teaching,47.4
+998,84,University of Freiburg,Germany,60.7,international,60.3
+3161,84,University of Freiburg,Germany,60.7,income,100
+1600,86,University of St Andrews,United Kingdom,60.4,research,47.3
+3042,86,University of St Andrews,United Kingdom,60.4,income,30.6
+879,86,University of St Andrews,United Kingdom,60.4,international,92.3
+2321,86,University of St Andrews,United Kingdom,60.4,citations,78.8
+158,86,University of St Andrews,United Kingdom,60.4,teaching,49.7
+2197,87,Vanderbilt University,United States of America,60.1,citations,95.7
+755,87,Vanderbilt University,United States of America,60.1,international,29.1
+2918,87,Vanderbilt University,United States of America,60.1,income,63.2
+34,87,Vanderbilt University,United States of America,60.1,teaching,47.8
+1476,87,Vanderbilt University,United States of America,60.1,research,44.2
+384,88,Kyoto University,Japan,59.9,teaching,70.6
+431,88,Maastricht University,Netherlands,59.9,teaching,37.5
+3268,88,Kyoto University,Japan,59.9,income,79
+1873,88,Maastricht University,Netherlands,59.9,research,47.7
+3315,88,Maastricht University,Netherlands,59.9,income,95.4
+1826,88,Kyoto University,Japan,59.9,research,69.3
+2547,88,Kyoto University,Japan,59.9,citations,46.6
+1105,88,Kyoto University,Japan,59.9,international,26.1
+1152,88,Maastricht University,Netherlands,59.9,international,95.5
+2594,88,Maastricht University,Netherlands,59.9,citations,82.7
+2919,90,Emory University,United States of America,59.7,income,48.9
+2920,90,Ohio State University,United States of America,59.7,income,53.1
+757,90,Ohio State University,United States of America,59.7,international,53
+756,90,Emory University,United States of America,59.7,international,51
+35,90,Emory University,United States of America,59.7,teaching,48.3
+2199,90,Ohio State University,United States of America,59.7,citations,83.2
+2425,90,Lund University,Sweden,59.7,citations,81.3
+2198,90,Emory University,United States of America,59.7,citations,96.7
+1704,90,Lund University,Sweden,59.7,research,53.6
+262,90,Lund University,Sweden,59.7,teaching,39.7
+983,90,Lund University,Sweden,59.7,international,74.1
+3146,90,Lund University,Sweden,59.7,income,70.4
+1477,90,Emory University,United States of America,59.7,research,37.1
+36,90,Ohio State University,United States of America,59.7,teaching,51.6
+1478,90,Ohio State University,United States of America,59.7,research,46.6
+1601,93,University of Exeter,United Kingdom,59.5,research,40
+159,93,University of Exeter,United Kingdom,59.5,teaching,39.4
+3043,93,University of Exeter,United Kingdom,59.5,income,31.9
+2322,93,University of Exeter,United Kingdom,59.5,citations,94.3
+880,93,University of Exeter,United Kingdom,59.5,international,87.3
+3162,94,University of Bonn,Germany,58.8,income,-
+999,94,University of Bonn,Germany,58.8,international,63.6
+758,94,Georgetown University,United States of America,58.8,international,52.7
+2921,94,Georgetown University,United States of America,58.8,income,80.7
+2200,94,Georgetown University,United States of America,58.8,citations,82.5
+37,94,Georgetown University,United States of America,58.8,teaching,54.4
+1479,94,Georgetown University,United States of America,58.8,research,39.3
+3120,94,McMaster University,Canada,58.8,income,88
+2441,94,University of Bonn,Germany,58.8,citations,85.3
+2399,94,McMaster University,Canada,58.8,citations,84.9
+236,94,McMaster University,Canada,58.8,teaching,39.8
+957,94,McMaster University,Canada,58.8,international,76.1
+278,94,University of Bonn,Germany,58.8,teaching,45.1
+1720,94,University of Bonn,Germany,58.8,research,47.5
+1678,94,McMaster University,Canada,58.8,research,44.8
+1602,97,University of Sheffield,United Kingdom,58.6,research,48.8
+3044,97,University of Sheffield,United Kingdom,58.6,income,43.4
+881,97,University of Sheffield,United Kingdom,58.6,international,81.9
+2323,97,University of Sheffield,United Kingdom,58.6,citations,80.1
+160,97,University of Sheffield,United Kingdom,58.6,teaching,42.4
+3045,98,Queen Mary University of London,United Kingdom,58.5,income,36.8
+882,98,Queen Mary University of London,United Kingdom,58.5,international,93.5
+161,98,Queen Mary University of London,United Kingdom,58.5,teaching,34.1
+2324,98,Queen Mary University of London,United Kingdom,58.5,citations,93.3
+1603,98,Queen Mary University of London,United Kingdom,58.5,research,41.3
+1721,99,University of Göttingen,Germany,58,research,54.5
+2922,99,Michigan State University,United States of America,58,income,32.2
+279,99,University of Göttingen,Germany,58,teaching,49.3
+1000,99,University of Göttingen,Germany,58,international,56.4
+2201,99,Michigan State University,United States of America,58,citations,76.8
+3163,99,University of Göttingen,Germany,58,income,31.8
+38,99,Michigan State University,United States of America,58,teaching,47.3
+1480,99,Michigan State University,United States of America,58,research,52.6
+759,99,Michigan State University,United States of America,58,international,56.4
+2442,99,University of Göttingen,Germany,58,citations,72.7

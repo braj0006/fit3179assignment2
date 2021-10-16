@@ -1,0 +1,51 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Scores of Top 1,5 and 10 University in 2016",
+    "data": {
+      "url": "top3TimesDataMelt2016.csv"
+    },
+    "params":[
+        {
+            "name": "uni_selection",
+            "bind":{
+                "input": "select",
+                "options": [
+                  null,
+                  "California Institute of Technology",
+                  "Massachusetts Institute of Technology",
+                  "University of Chicago"
+                ],
+                "labels":[
+                  "Show All",
+                  "California Institute of Technology #1",
+                  "Massachusetts Institute of Technology #5",
+                  "University of Chicago #10"
+                ],
+                "name": "University Selection"
+            }
+        }
+    ],
+    "transform": [
+        {"filter": "uni_selection == null||datum.university_name == uni_selection"}
+    ],
+    "layer": [{
+      "mark": {"type": "arc", "innerRadius": 10, "stroke": "#fff"}
+    },{
+      "mark": {"type": "text", "radiusOffset": 30},
+      "encoding": {
+        "text": {"field": "variable", "type": "nominal"}
+      }
+    }],
+    "encoding": {
+      "theta": {"field": "value", "type": "quantitative", "stack": true},
+      "radius": {"field": "value", "scale": {"type": "linear", "zero": true, "rangeMin": 20}},
+      "color": {"field": "variable", "type": "nominal", "legend": null},
+      "tooltip":[
+          {"field":"variable","type": "nominal", "title": "Category"},
+          {"field":"value","type": "quantitative", "title": "Score"},
+          {"field":"total_score", "type": "quantitative", "title": "Total Score"},
+          {"field":"university_name","type": "nominal","title":"University"}
+      ]
+    },
+    "view": {"stroke": null}
+  }

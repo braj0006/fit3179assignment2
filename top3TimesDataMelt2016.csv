@@ -1,0 +1,16 @@
+,world_rank,university_name,country,total_score,variable,value
+0,1,California Institute of Technology,United States of America,95.2,teaching,95.6
+2884,1,California Institute of Technology,United States of America,95.2,income,97.8
+721,1,California Institute of Technology,United States of America,95.2,international,64
+1442,1,California Institute of Technology,United States of America,95.2,research,97.6
+2163,1,California Institute of Technology,United States of America,95.2,citations,99.8
+1444,5,Massachusetts Institute of Technology,United States of America,92,research,88.6
+723,5,Massachusetts Institute of Technology,United States of America,92,international,84
+2,5,Massachusetts Institute of Technology,United States of America,92,teaching,89.4
+2165,5,Massachusetts Institute of Technology,United States of America,92,citations,99.7
+2886,5,Massachusetts Institute of Technology,United States of America,92,income,95.4
+1447,10,University of Chicago,United States of America,87.9,research,88.9
+5,10,University of Chicago,United States of America,87.9,teaching,85.7
+2168,10,University of Chicago,United States of America,87.9,citations,99.2
+2889,10,University of Chicago,United States of America,87.9,income,36.6
+726,10,University of Chicago,United States of America,87.9,international,65

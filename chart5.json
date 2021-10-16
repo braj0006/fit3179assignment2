@@ -1,0 +1,32 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 400,
+    "height": 400,
+    "title": "The Score of each Category for Top N University in 2016",
+    "data": {
+      "url": "timesData2016melt.csv"
+    },
+    "params": [
+        {
+            "name": "top_selection",
+            "value": 10,
+            "bind": {
+                "input": "range",
+                "min": 10,
+                "max": 100,
+                "step": 10,
+                "name": "Top N University Selection"
+            }
+        }
+    ],
+    "transform": [
+        {"filter": "datum.world_rank < top_selection"}
+    ],
+    "mark": {"type": "boxplot"},
+    "encoding": {
+      "x": {"field": "variable", "type": "nominal","title":"Category"},
+      "color": {"field": "variable", "type": "nominal","title":"Category"},
+      "y": {"field": "value", "type": "quantitative", "scale": {"zero": false},"title":"Score"}
+    },
+    "config": {}
+  }
